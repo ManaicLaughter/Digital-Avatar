@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>570</width>
+    <height>814</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-490</x>
+      <y>-200</y>
+      <width>2881</width>
+      <height>1381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+  font-family:century gothic;
+ font-size:24px;
+}
+QFrame
+{
+ background:r#333;
+ border-radius:15px;
+}
+#Form{
+   background:url(D:\python projects\Python-Blender-Qt\images);
+}
+QPushButton
+{
+ color:white;
+ background:#08202c;
+ border-radius:15px;
+}
+QPushButton:hover
+{
+ color:#333;
+  background:#49ebff;
+ border-radius:15px;
+}
+QLAbel
+{
+ color:white;
+}
+QLineEdit
+{
+ background:transparent;
+ border:none;
+ color:#717072;
+ border-bottom: 1px solid #717072;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Pictures/Saved Pictures/15611.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>750</y>
+      <width>571</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit
+{
+ font-family:century gothic;
+ font-size:20px;
+ background:white;
+ border:none;
+ color:black;
+ border-bottom: 1px solid #717072;
+
+}
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>To Chat Type here....</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>571</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit
+{
+ background:transparent;
+ border:none;
+ color:#717072;
+ border-bottom: 1px solid #717072;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>750</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+ color:white;
+ background:#08202c;
+ border-radius:15px;
+}
+QPushButton:hover
+{
+ color:#333;
+  background:#49ebff;
+ border-radius:15px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Send</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>571</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+{
+ background:black;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Case Studies/Vaman/app.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>10</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+ color:white;
+ background:#08202c;
+ border-radius:15px;
+}
+QPushButton:hover
+{
+ color:#333;
+  background:red;
+ border-radius:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>END</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
